@@ -3,20 +3,20 @@ console.log(a)
 
 // Function declaration
 function bomDia() {
-  console.log("Bom dia!")
+	console.log('Bom dia!')
 }
 
 bomDia()
 
 // Function expression
 const boaTarde = function () {
-  console.log("Boa tarde!")
+	console.log('Boa tarde!')
 }
 
 boaTarde() // undefined
 
 function soma(a = 0, b = 0) {
-  return a + b
+	return a + b
 }
 
 let resultado = soma(3)
