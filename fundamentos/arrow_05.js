@@ -1,7 +1,7 @@
 const bomDia = () => 'Bom dia!'
 const boaTarde = () => 'Boa tarde!'
 
-const executar = (fn) => fn()
+const executar = fn => fn()
 
 let resultado = executar(bomDia)
 console.log(resultado) // Bom dia!

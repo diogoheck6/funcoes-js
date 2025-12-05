@@ -12,7 +12,7 @@
 // 	return (b) => (c) => a + b + c
 // }
 
-const somar = (a) => (b) => (c) => a + b + c
+const somar = a => b => c => a + b + c
 
 console.log(somar(13)(14)(15)) // 42
 
